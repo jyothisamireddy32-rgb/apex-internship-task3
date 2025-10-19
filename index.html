@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Responsive Project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Interactive Project</h1>
+    </header>
+
+    
+    <section class="carousel-section">
+        <h2>Image Carousel</h2>
+        <div class="carousel">
+            <img src="/home/rgukt/Desktop/project-task3/pexels-pixabay-45853.jpg" class="active" alt="Image 1">
+            <img src="/home/rgukt/Desktop/project-task3/pexels-pixabay-207353.jpg" style="height: 350px;" alt="Image 2">
+            <img src="/home/rgukt/Desktop/project-task3/pexels-thatguycraig000-1563355.jpg" alt="Image 3">
+        </div>
+        <button id="prev">Prev</button>
+        <button id="next">Next</button>
+    </section>
+
+  
+    <section class="api-section">
+        <h2>Random Joke from API</h2>
+        <button id="getJoke">Get Joke</button>
+        <p id="jokeOutput"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
